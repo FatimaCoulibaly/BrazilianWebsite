@@ -1,0 +1,91 @@
+body {
+	background-color: white;
+	font-family: 'Aref Ruqaa', bold, serif;
+	}
+
+	nav-extended{
+		background-color: green;
+		text-align: center;
+
+	}
+
+	nav{
+		background-color: green;
+		text-align: center;
+
+	}
+
+	.brand-logo{
+		color: yellow;
+	}
+
+	nav-content {
+		border-style: groove;
+		border-color: yellow;
+	}
+
+body {
+	background-color: white;
+	font-family: 'Nunito', sans-serif;
+	}
+
+	document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.parallax');
+    var instances = M.Parallax.init(elems, options);
+  });
+
+	$(document).ready(function(){
+    $('.parallax').parallax();
+  });
+
+	var instance = M.Parallax.getInstance(elem);
+
+  /* jQuery Method Calls
+    You can still use the old jQuery plugin method calls.
+    But you won't be able to access instance properties.
+
+    $('.parallax').parallax('methodName');
+    $('.parallax').parallax('methodName', paramName);
+  */
+
+
+	#test2 {
+		color: yellow;
+
+	}
+	h1 {
+	color: green;
+	text-shadow: 5px 3px 3px yellow;
+	font-family: 'Aref Ruqaa', bold, serif;
+}
+
+h2 {
+	color: black;
+	font-family: 'Aref Ruqaa', bold, serif;
+}	
+
+img {
+	height: 10%;
+	width: 10%
+	margin-left: 10px;
+}
+
+
+ul {
+	display: inline;
+	margin: 20px;
+
+}
+
+ol {
+	display: inline;
+	margin: 20px;
+
+}
+
+h3 {
+	font-family: 'Aref Ruqaa', bold, serif;
+}
+
+
+div class=""
